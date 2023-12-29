@@ -13,7 +13,7 @@ export default function RootLayoutNav() {
   return (
     <Stack>
       <Stack.Screen name="index" options={{
-        header: () => <CustomHeader />
+        header: () => <CustomHeader />,
       }} />
     </Stack>
   );
