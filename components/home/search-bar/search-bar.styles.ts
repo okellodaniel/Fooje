@@ -3,13 +3,18 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     searchContainer: {
         height: 60,
-        backgroundColor: 'blue'
+        backgroundColor: 'blue',
+        flexDirection: "row",
+        justifyContent: "space-between"
     },
-    searchSection:{
+    searchSection: {
 
     },
-    searchField:{
-        
+    searchField: {
+
+    },
+    optionButton: {
+
     }
 });
 
